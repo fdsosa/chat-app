@@ -1,13 +1,13 @@
 import Header from '../components/header';
 import FormBackground from '../components/formBackground';
-import Form from '../components/form';
+import FormLogIn from '../components/formLogIn';
 
 function LogIn() {
     return(
         <>
             <Header />
             <FormBackground />
-            <Form title="Sign in to ChatApp" button="Sign In" fields={[['Email', 'email', 'email'], ['Password', 'password', 'password']]}/>
+            <FormLogIn />
         </>
     )
 }

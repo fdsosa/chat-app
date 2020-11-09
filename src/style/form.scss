@@ -51,7 +51,6 @@
             
             .button-container {
                 background-color: $success-green;
-                padding: 0.7rem 0.8rem;
                 cursor: pointer;
                 transition: .2s ease all;
                 border-radius: 3px;
@@ -60,7 +59,9 @@
                     font-size: 1rem;
                     background: none;
                     color: #f1f1f1;
+                    padding: 0.7rem 0.8rem;
                     border: 0;
+                    width: 100%;
                 }
             }
 
